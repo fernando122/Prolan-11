@@ -1,0 +1,7 @@
+Perbedaan Kelas Abstraksi dan Kelas Enkapsulasi pada data Hiding
+
+Abstraksi
+pada kelas abstraksi data hiding terdapat pada method, sehingga user hanya dapat melihat data tersebut bisa melakukan apa aja, tetapi sebagai developer bisa mengupdate method dan memodifnya dengan cara overriding pada method
+
+Enkapsulasi
+pada kelas enkapsulasi data hiding terdapat pada value di attribute,sehingga user hanya dapat meliat variable dan tidak bisa mengubah value pada attribute, sebagai developer bisa membuat data value di atrribute menjadi read only,write only, dan read and write (getter setter) 
