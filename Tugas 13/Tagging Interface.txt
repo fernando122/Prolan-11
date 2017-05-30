@@ -1,0 +1,7 @@
+Tagging Interface atau Marker Interface adalah suatu interface yang tidak mempunyai methods. contohnya menggunakan Serializable.
+
+Meskipun didalam tagging interface tidak ada methord tetapi tag interface selalu membawa type informasi, dalam beberapa kasus, type informasi dapat memecahan suatu masalah tertentu.
+
+Serialization (sebelum diserialize data akan dinamakan sebagai javadoc)
+Serialization merupakan suatu proses dimana state daripada objek tersebut dapat kita simpan menjadi bentuk deretan byte, dan juga sebaliknya. Pada pemrograman java semua objek yang dibuat, akan tersimpan atau tetap running, selama Java Virtual Machine atau JVM masih running. Artinya jika jvm mati, secara otomatis objek juga akan terhapus dari memori. Selain itu, objek pada java jika sudah lama tidak digunakan, akan terhapus secara otomatis oleh garbage collector java. Sehingga kita harus menyimpan state objek tersebut ke suatu tempat jika ingin digunakan kembali.
+Salah satu teknik yang bisa digunakan  adalah Serialization tersebut. Objek akan disimpan dalam bentuk deretan byte ke dalam sebuah file atau database, dan juga bisa dikirim melalui jaringan. Salah  satu syarat supaya objek bisa diserializable adalah dengan mengimplements java.io.Serializable interface. Interface ini merupakan interface kosongan karena hanya berfungsi sebagai penanda bahwa class yang mengimplements interface tersebut bisa diserializable.
