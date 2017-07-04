@@ -1,0 +1,137 @@
+Pertemuan 1 
+Pendahuluan
+-Setting environment
+klik kana My Computer > Advanced system > Advanced > Environment Variables > pilih path > system variables > edit > C:\Program Files\Java\jdk1.8.0_77\bin
+mensetting java agar dapat di compile
+-Instalasi Netbeans
+Menjalankan Program Netbeans
+-Compile 
+Menjalankan suatu program java menggunakan cmd, javac, java
+Mengcompile nama file dan nama main kelas harus sama
+-GitHub
+Membuat Akun github, cara mengupload di github
+-Membuat Program Hello Word
+Folder github : Tugas 1
+
+Pertemuan 2
+Variable
+-Intro OPP
+Menggenal konsep dasar OOP, yaitu OOP (Object Oriented Programming) adalah suatu metode pemrograman yang berorientasi kepada objek, bertujuan untuk mempermudah pengembangan program dengan cara mengikuti model yang telah ada di kehidupan sehari-hari.
+-Access Modifiers
+1.Public, Tipe ini mengijinkan seluruh class dari luar atau dari dalam package bisa mengaksesnya
+2.Protected, Tipe ini di gunakan untuk pewarisan dalam java, jadi klo suatu super class mempunyai sebuah member, ini dapat diakses oleh subclassnya.
+3.Private, Tipe ini hanya dapat diakses dimana class tersebut di buat.
+4.Default, Tipe akses ini hanya dalam satu class itu sendiri yang dapat mengaksesnya tergantung dari blok kodenya
+-Java Syntax
+Main program harus public static void main(String args[]), jika ingin mengcompile harus memiliki main program.
+Folder github : Tugas 2
+
+Pertemuan 3
+I/O
+-import
+membuat program yang dapat memasukan sebuah data java.util.scanner. Sehingga kita dapet memasukan data yg kita ingginkan, tetapi harus di deklarasi dulu tipe datanya
+Folder Github : Tugas 3
+
+Pertemuan 4
+Kelas dan Objek
+-Membuat dan Menggunakan Kelas
+membuat sebuah kelas dan menggunakannya pada main program dengan cara menambahkan objek baru ( class object = new class)
+-Membuat Attribute dan Method
+membuat attribute dan method pada kelas, sehingga jika di panggil pada main program kelas tersebut memiliki isi/data
+Folder Github : Tugas 4
+
+Pertemuan 5 
+Tipe Data
+-Macam - Macam Tipe Data
+Data Primitif, tipe data yg telah ditetapkan oleh java : byte,integer,float,boolean,short,long,double,char
+Data Objek, tipe data dari instansiasi kelas : String,Calendar,Date
+-Penggunaan Tipe data
+byte : -128 s.d 127
+short : -32768 s.d. 32767. 
+int : -2147483648 s.d. 2147483647
+long : -9223372036854775808  s.d. 9223372036854775807
+float : +/- 3.4 x 1038
+double : +/- 1.8 x 10308
+boolean : nilai logika, true and false
+char : untuk karakter ($,%,@,&)
+Folder Github : Tugas 5
+
+Pertemuan 6
+Method,Konstruktor,Attribute
+-Menggenal Method dan jenisnya
+Method suatu sekumpulan perintah atau baris program yang melalkukan task bersama-sama.
+Method dapat memiliki parameter dan tidak
+Method yang tidak menggembalikan nilai (function) dan Method yang menggebalikan nilai (prosedur) menggunakan return
+-Penggenalan Konstruktor
+Kontruktor memilika nama yang sama dengan nama kelas, digunakan untuk memberikan suatu nilai kepada variable global, jika konstruktor dibuat, maka sebuah objek terbentuk
+-Keyword this
+kegunaan keyworad this untuk membedakan lokal variable dan global variable, sehingga tidak terjadi bentrok
+-Penggenalan Attribute
+Attribute adalah data dari kelas, dan melekat pada objek
+Variable dan tipe data pada kelas bisa disebut juga attribue
+Folder Github : Tugas 6
+
+Pertemuan 7
+Inheritance
+-Penggenalan konsep pewarisan
+terdapat anak kelas dan ayah kelas, method dan objek  yang terdapat pada ayah kelas dapat diwariskan pada anak kelas dengan cara menggunakan Extends
+-Syarat Penggunaan Inheritance
+access modifiers pada method ayah kelas harus bersifat protected atau public, sehingga dapat di akses oleh anak kelas. jika private makan method tidak bisa di akses oleh anak kelas, karena private hanya dapat di akes pada kelas itu sendiri
+-Penggunaan Super
+Penggunaan super untuk mengakes dan memodif variable pada Ayah kelas
+Folder Github : Tugas 8
+
+Pertemuan 8
+Override
+-Penggenalan Method Override
+Override adalah suatu anak kelas yang turunan dari ayah kelas. mempunyai beberapa method dengan nama yang sama dengan ayah kelas. tetapi dengan implementasi yang berbeda.
+-Syarat Method Override
+Harus Inheritance  dan memiliki parameter yang sama
+-Perbedaan this and super
+this untuk mengakses method atau objek pada anak kelas, super untuk mengakes method atau objek pada Ayah kelas sehingga tidak terjadi bentrok/double varriable
+Folder Github : Tugas 10 
+
+Pertemuan 9
+Abstraction
+-Penggenalan Abstraction
+Abstraksi adalah proses pengabstraksian atau menyembunyikan kerumitan dari suatu proses
+-Penggunaan Abstraction pada kelas dam method
+Folder Github : Tugas 11
+
+Pertemuan 10 
+Encapsulation
+-Penggenalan Enkapsulasi (pembungkusan) 
+Enkapsulasi salah satu konsep yang mempunyai proses membungkus data dan fungsidari sebuah kelas menjadi sebuah unit. pada kelas enkapsulasi data hiding terdapat pada value di attribute,sehingga user hanya dapat meliat variable dan tidak bisa mengubah value pada attribute, sebagai developer bisa membuat data value di atrribute menjadi read only,write only, dan read and write (getter setter) 
+Folder Github : Fernando-10115347-encapIntegration
+
+Pertemuan 11
+Interface
+-Penggenalan Interface
+Interface adalah sebuah reference type yang mirip dengan kelas, berisi sekumpulan kelas, mirip dengan kelas, kelas menjelaskan atribut dan method dari sebuah objek tetapi interface memiliki method-method yang dapat diimplementasi oleh kelas
+-Perbedaan Kelas dan Interface 
+Interface tidak dapat diinstansiasi, Interface tidak memiliki konstruktor Semua method pada interface adalah method abstrak,Interface tidak di extends oleh kelas
+-Tagging Interface
+Tagging Interface atau Marker Interface adalah suatu interface yang tidak mempunyai methods. contohnya menggunakan Serializable.Serialization merupakan suatu proses dimana state daripada objek tersebut dapat kita simpan menjadi bentuk deretan byte, dan juga sebaliknya.
+Folder Github : Tugas 12 Interface
+
+Pertemuan 12
+Generic Class
+-Penggenalan Kelas Generik
+Kelas Generik tipe data yang biasanya didefinisikan di bagian parameter dan bersifat generik atau dikenali pada saat runtime.
+Folder Github : Tugas 13
+Folder Github : Tugas 14 (Refactor)
+
+Pertemuan 13
+Generic Class Berparameter
+-Menggunakan class berparameter
+Membuat metode generik dengan parameter objek, metode generik yang memiliki lebih dari 1 parameter
+FolderGithu : Tugas 15
+
+Pertemuan 14
+Package
+-Penggenal Package
+Digunakan untuk menghindari penamaan kelas, interface, dll.
+berguna sebagai akses kontrol dan penempatan atau pencarian kelas, interface dll.
+dapat didefinissikan sebagai sekumpulan kelas, interface yang saling berhubungan satu sama lain.
+memberikan proteksi pada kelas, agar tidak sembarangan di akses ole keas lain.
+Folder Github : Tugas 16
