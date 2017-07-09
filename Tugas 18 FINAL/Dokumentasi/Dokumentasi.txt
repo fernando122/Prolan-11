@@ -1,0 +1,76 @@
+-Cara Kerja Program
+a.Pilih menu yang akan dijalankan (1-6)
+b.Ketik "y" (case sensitive) jika ingin kembali ke menu utama
+c.Ketik "t" (case sensitive) jika ingin menutup aplikasi
+d.Pada menu utama pilih menu 7 jika ingin menutup aplikasi
+
+-Keterkaitan Dengan OOP
+1.Inheritance
+Pewarasia pada kelas data sebagai ayah kelas kepada kelas Buku sebagai anak kelas dengan menggunakan extends
+
+2.Encapsulation
+Encapsulation Pada kelas Tulisan dengan menggunakan read and write (getter setter)
+
+3.Abstraction
+Abstraction Pada kelas Data dan penggunaan Method Abstraction pada kelas Data, Interface, Interface2
+
+4.Class
+Kelas di gunakan di setiap bagian pada aplikasi ini
+
+5.Object
+Objek pada kelas MainBuku, diinstansiasi pada kelas : 
+-Buku = book
+-Tulisan = font
+-Biodata<String> = stringBiodata
+-Biodata<Integer> = integerBiodata
+-Pembeli = pem1
+-Pembeli2 = pem2
+-Penjaga = satpam
+-Alamat = alm
+-Jalan<Alamat> = jln
+-Scanner = input
+
+6.Method
+Penggunaan Method digunakan di setiap kelas pada aplikasi ini.
+Pengguan Method return pada Kelas Buku di method jumlah_harga
+
+7.Super
+Keyword Super digunakan pada kelas Data
+
+8.Constructors
+Konstruktor terdapat pada kelas Data
+
+9.Access Modifiers
+Access Modifiers digunakan di setiap kelas pada aplikasi ini
+
+10.I/O
+Input and Output digunakan pada Main Program di kelas MainBuku
+
+11.Type Data
+-Data Primitif
+a.byte pada kelas Data
+b.integer pada kelas Data, Buku, Tulisan 
+-Data Objek
+String pada kelas Data, Tulisan, Interface, Interface2, Pembeli, Pembeli2, Alamat, Toko
+
+12.Variables
+Variable digunakan di setiap kelas pada aplikasi ini
+
+13.Override
+Override digunakan pada kelas Buku, Pembeli, Pembeli2, InterfaceToko 
+ 
+14.Generic Class
+Generic Class digunakan pada kelas Biodata, Alamat, Jalan,
+
+15.Generic Class Parameterized
+Generic Class berparameter digunakan pada kelas Penjaga, Alamat, Jalan.
+Kelas Alamat dan Jalan sebagai generik parameter yang akan di panggil atau digunakan pada kelas MainBuku
+
+16.Interface
+Interface digunakan pada Kelas Toko, Interface, Interface2
+
+17.Implements
+Implements digunakan pada kelas InterfaceToko, Pembeli, Pembeli2
+
+18.Packages
+Terdapat tiga packages pada aplikasi ini, yaitu ; buku, konsumen, toko
